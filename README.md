@@ -14,8 +14,8 @@ I was tasked with two primary objectives:
 
 The dataset used in this project is a modified subset of the "Fleet Equipment Inventory" data from Montgomery County, MD, publicly available under a Public Domain license.
 
-* **Part 1 (Cleaning):** `Montgomery_Fleet_Equipment_PART_1_START.CSV`
-* **Part 2 (Analysis):** `Montgomery_Fleet_Equipment_PART_2_START.XLSX`
+* **Part 1 (Cleaning):** `Montgomery_Fleet_PART_1_START.CSV`
+* **Part 2 (Analysis):** `Montgomery_Fleet_PART_2_START.XLSX`
 
 ## Tools and Technologies
 
@@ -50,8 +50,8 @@ The project is divided into two main parts, corresponding to the initial data cl
 
 ### Part 1: Data Cleaning
 
-* **Input File:** `Montgomery_Fleet_Equipment_PART_1_START.CSV`
-* **Output File:** `Montgomery_Fleet_Equipment_PART_1_END.XLSX`
+* **Input File:** `Montgomery_Fleet_PART_1_START.CSV`
+* **Output File:** `Montgomery_Fleet_PART_1_END.XLSX`
 * **Tasks Performed:**
     * Converted CSV to XLSX.
     * Adjusted column widths.
@@ -63,8 +63,8 @@ The project is divided into two main parts, corresponding to the initial data cl
 
 ### Part 2: Data Analysis with Pivot Tables
 
-* **Input File:** `Montgomery_Fleet_Equipment_PART_2_START.XLSX` (This is the cleaned data from Part 1, or a similar pre-cleaned version provided for Part 2)
-* **Output File:** `Montgomery_Fleet_Equipment_PART_2_END.XLSX`
+* **Input File:** `Montgomery_Fleet_PART_2_START.XLSX` (This is the cleaned data from Part 1, or a similar pre-cleaned version provided for Part 2)
+* **Output File:** `Montgomery_Fleet_PART_2_END.XLSX`
 * **Tasks Performed:**
     * Formatted data as an Excel Table.
     * Calculated SUM, AVERAGE, MIN, MAX, COUNT for 'C' column using AutoSum.
