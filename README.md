@@ -1,23 +1,21 @@
 # Data-Cleaning-and-Analysis-Excel-Case-Study
 ## Project Overview
 
-This repository showcases a practical data analysis project completed as part of a Junior Data Analyst assignment within a local government office scenario. The project involves cleaning and analyzing fleet equipment inventory data using Microsoft Excel, demonstrating key skills in data preparation, data manipulation, and basic data summarization with pivot tables.
+This repository showcases cleaning and analyzing fleet equipment inventory data using Microsoft Excel, demonstrating key skills in data preparation, data manipulation, and basic data summarization with pivot tables.
 
 ## Problem Statement
 
-As a newly hired Junior Data Analyst, I was tasked with two primary objectives:
+I was tasked with two primary objectives:
 
 1.  **Data Cleaning:** Import raw, comma-separated value (CSV) inventory data for the fleet of vehicles, convert it to an Excel workbook, and perform extensive data cleaning to ensure data quality and usability.
 2.  **Data Analysis:** Utilize the cleaned data to perform initial analyses using Excel's powerful features, specifically focusing on summarizing fleet information by department and equipment class using pivot tables.
 
 ## Dataset
 
-The dataset used in this project is a modified subset of the "Fleet Equipment Inventory" data from Montgomery County, MD, publicly available under a Public Domain license. For this assignment, a specific version of the dataset was provided:
+The dataset used in this project is a modified subset of the "Fleet Equipment Inventory" data from Montgomery County, MD, publicly available under a Public Domain license.
 
-* **Part 1 (Cleaning):** `Montgomery_Fleet_Equipment_Inventory_FA_PART_1_START.CSV`
-* **Part 2 (Analysis):** `Montgomery_Fleet_Equipment_Inventory_FA_PART_2_START.XLSX`
-
-[Original Dataset Source: Montgomery County Open Data Portal - Fleet Equipment Inventory](https://data.montgomerycountymd.gov/Government/Fleet-Equipment-Inventory/93vc-wpdr)
+* **Part 1 (Cleaning):** `Montgomery_Fleet_Equipment_PART_1_START.CSV`
+* **Part 2 (Analysis):** `Montgomery_Fleet_Equipment_PART_2_START.XLSX`
 
 ## Tools and Technologies
 
@@ -52,8 +50,8 @@ The project is divided into two main parts, corresponding to the initial data cl
 
 ### Part 1: Data Cleaning
 
-* **Input File:** `Montgomery_Fleet_Equipment_Inventory_FA_PART_1_START.CSV`
-* **Output File:** `Montgomery_Fleet_Equipment_Inventory_FA_PART_1_END.XLSX`
+* **Input File:** `Montgomery_Fleet_Equipment_PART_1_START.CSV`
+* **Output File:** `Montgomery_Fleet_Equipment_PART_1_END.XLSX`
 * **Tasks Performed:**
     * Converted CSV to XLSX.
     * Adjusted column widths.
@@ -65,8 +63,8 @@ The project is divided into two main parts, corresponding to the initial data cl
 
 ### Part 2: Data Analysis with Pivot Tables
 
-* **Input File:** `Montgomery_Fleet_Equipment_Inventory_FA_PART_2_START.XLSX` (This is the cleaned data from Part 1, or a similar pre-cleaned version provided for Part 2)
-* **Output File:** `Montgomery_Fleet_Equipment_Inventory_FA_PART_2_END.XLSX`
+* **Input File:** `Montgomery_Fleet_Equipment_PART_2_START.XLSX` (This is the cleaned data from Part 1, or a similar pre-cleaned version provided for Part 2)
+* **Output File:** `Montgomery_Fleet_Equipment_PART_2_END.XLSX`
 * **Tasks Performed:**
     * Formatted data as an Excel Table.
     * Calculated SUM, AVERAGE, MIN, MAX, COUNT for 'C' column using AutoSum.
@@ -74,10 +72,6 @@ The project is divided into two main parts, corresponding to the initial data cl
     * Sorted all pivot tables by `Sum of Equipment Count` in descending order.
     * **Pivot Table 2 Analysis:** Added `Equipment Class` below `Department` and collapsed all fields except `Transportation`.
     * **Pivot Table 3 Analysis:** Added `Equipment Class` above `Department` and collapsed all fields except `CUV`.
-
-## Future Enhancements
-
-* Further visualization of the cleaned data (like: charts, dashboards).
 
 ## Author
 
